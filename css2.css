@@ -1,0 +1,28 @@
+/* tag {
+    quy tac
+} */
+h2{
+    color: brown;
+    border-bottom: 2px solid blanchedalmond;
+}
+
+#zone3{
+    border: 2px dotted blue;
+    margin: 1rem;
+    padding: 2rem;
+}
+
+.container{
+    margin: 5rem 10%;
+    background-color: aqua;
+}
+
+p[class="content"]{
+    color: blueviolet;
+}
+input[type="text"]{
+    width: 100%;
+    border: 1px solid blueviolet;
+    margin: .25rem 0;
+    padding: .5rem ;
+}

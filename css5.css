@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    background-color: rgb(176, 233, 233);
+    margin: 1rem;
+    width: 200px;
+    border: 2px solid black;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    padding: .5rem ;
+    border-bottom: 1px solid chocolate;
+}
+nav a:hover{
+    background-color: antiquewhite;
+    color: brown;
+}
+
+nav ul li:last-child a{
+    border: 0;
+}
+
+nav ul li:first-child{
+    background-color: rgb(234, 241, 190);
+    padding: .75rem;
+    color: brown;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}

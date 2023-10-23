@@ -1,0 +1,52 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+h1{
+    border: 1px solid;
+}
+
+#zone1 p{
+    background-color: aqua;
+    margin-bottom: 2px;
+}
+/* tag 01 > tag 02 */
+
+#zone1 > p{
+    padding: 2rem;
+    background-color: aquamarine;
+}
+
+
+/* tag01,tag02 */
+header,section{
+    border: 2px solid blueviolet;
+}
+/* tag01~tag02 */
+.dev-1 ~ p{
+    background-color: blue;
+}
+
+.dev-1 + p{
+    border: 4px solid red;
+}
+
+p:hover{
+    background-color: brown;
+    cursor: pointer;
+}
+
+nav ul li:first-child{
+    background-color: aquamarine;
+    padding: 1rem;
+}
+nav ul li:last-child{
+    background-color: aquamarine;
+    padding: 1rem;
+}
+#zone3 p:nth-child(2n){
+    background-color: brown;
+}
+#zone3 p:nth-child(2n+1){
+    background-color: rgb(63, 143, 218);
+}
